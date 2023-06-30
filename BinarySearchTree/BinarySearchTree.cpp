@@ -40,7 +40,8 @@ public:
 
 		if (parent == NULL) // If the parent is NULL (tree is empty)
 		{
-			ROOT = newNode;
+			ROOT = newNode; //Mark the new node as ROOT
+			return; //Exit
 		}
 	}
 };
