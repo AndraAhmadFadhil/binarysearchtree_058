@@ -165,6 +165,7 @@ int main()
 		default:
 		{
 			cout << "Invalid Option" << endl;
+			break;
 		}
 		}
 	}
