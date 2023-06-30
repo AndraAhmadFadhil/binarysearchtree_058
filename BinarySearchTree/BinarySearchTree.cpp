@@ -5,5 +5,6 @@ class Node
 {
 public:
 	string info;
-
+	Node* leftchild;
+	Node* rightchild;
 };
